@@ -19,7 +19,7 @@ export const Login = (props) => {
 
     let onSubmit = (e) => {
         e.preventDefault()
-        Axios.post('http://localhost:5000/api/user/login', login)
+        Axios.post('/api/user/login', login)
             .then(res => {
                 console.log(res.data)
                 console.log(res.data.token )

@@ -33,7 +33,7 @@ export default class CreatePost extends Component {
         const formData = new FormData()
         formData.append('image', this.state.image)
         formData.append('post', JSON.stringify(this.state))
-        Axios.post("http://localhost:5000/api/post/user-profile", formData, {
+        Axios.post("/api/post/user-profile", formData, {
             post: JSON.stringify(this.state)
         
         }).then(res => {

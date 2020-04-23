@@ -37,7 +37,7 @@ export default class Login extends Component {
 
   onSubmit = (e) => {
     e.preventDefault()
-    Axios.post('http://localhost:5000/api/user/forget', {email: this.state.email, host: this.state.host})
+    Axios.post('/api/user/forget', {email: this.state.email, host: this.state.host})
       .then(res => {
         console.log(res)
         if (res.status == 200) {

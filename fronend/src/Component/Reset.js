@@ -32,7 +32,7 @@ export default class Reset extends Component {
 
     onSubmit = (e) => {
         e.preventDefault()
-        Axios.post(`http://localhost:5000/api/user/reset/${this.props.match.params.token}`, { password: this.state.password })
+        Axios.post(`/api/user/reset/${this.props.match.params.token}`, { password: this.state.password })
             .then(res => {
                 console.log(res)
                 this.setState({

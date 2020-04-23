@@ -20,7 +20,7 @@ const Register = (props) => {
     // to add the user info to database
     let onSubmit = (e) => {
         e.preventDefault()
-        Axios.post('http://localhost:5000/api/user/register', user)
+        Axios.post('/api/user/register', user)
             .then(res => {
 
 

@@ -44,7 +44,7 @@ class PostCard extends Component {
 
     onSubmit = (e) => {
         e.preventDefault()
-        Axios.post(`http://localhost:5000/api/user/favbooks/${this.props.post._id}`, {_id:this.props._id})
+        Axios.post(`/api/user/favbooks/${this.props.post._id}`, {_id:this.props._id})
                      .then(response => {
                 console.log(response)
                 this.setState({
@@ -59,7 +59,7 @@ class PostCard extends Component {
         }
 
     DeletePost = () => {
-        Axios.delete(`http://localhost:5000/api/post/delete/${this.props.post._id}`)
+        Axios.delete(`/api/post/delete/${this.props.post._id}`)
             .then(res => {
                 console.log(res)
             })
@@ -76,7 +76,7 @@ class PostCard extends Component {
         console.log(_id)
         return (
             <Col md={5} className="m-2 bg-rgba(71, 70, 70, 0.178)" style={{ borderStyle: "double", borderRadius: "20px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                <Image className="mt-3"  style={{ height: 190, width: 250 }} src={`http://localhost:5000/${image}`} ></Image>
+                <Image className="mt-3"  style={{ height: 190, width: 250 }} src={`/${image}`} ></Image>
                 {/* <h5>{firstname} {lastname}</h5> */}
 
                 <Paragraph className="mt-4" >{title}</Paragraph>

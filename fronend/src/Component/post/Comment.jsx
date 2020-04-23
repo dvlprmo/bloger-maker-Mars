@@ -26,7 +26,7 @@ export default class Comment extends Component {
 
   componentDidMount() {
     console.log(`${this.props.match.params.id}`)
-    Axios.get(`http://localhost:5000/api/post/comment/${this.props.match.params.id}`)
+    Axios.get(`/api/post/comment/${this.props.match.params.id}`)
       .then(
         (res) => {
           this.setState({
@@ -47,7 +47,7 @@ export default class Comment extends Component {
 
 
 
-    Axios.get(`http://localhost:5000/api/user/${this.props.match.params.id}`)
+    Axios.get(`/api/user/${this.props.match.params.id}`)
       .then(
         (res) => {
           this.setState({
