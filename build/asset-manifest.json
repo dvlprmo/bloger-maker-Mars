@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d397298.chunk.css",
+    "main.js": "/static/js/main.6e90ca25.chunk.js",
+    "main.js.map": "/static/js/main.6e90ca25.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.65c0c667.js",
+    "runtime-main.js.map": "/static/js/runtime-main.65c0c667.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.82940cc3.chunk.js": "/static/js/2.82940cc3.chunk.js",
+    "static/js/2.82940cc3.chunk.js.map": "/static/js/2.82940cc3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fa5a5c3dfa2625cf7127eb39e8de3e20.js": "/precache-manifest.fa5a5c3dfa2625cf7127eb39e8de3e20.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
+    "static/css/main.2d397298.chunk.css.map": "/static/css/main.2d397298.chunk.css.map",
+    "static/js/2.82940cc3.chunk.js.LICENSE.txt": "/static/js/2.82940cc3.chunk.js.LICENSE.txt",
+    "static/media/Rawan.png": "/static/media/Rawan.c8525ca1.png",
+    "static/media/App.css": "/static/media/bgimage.89aed1b0.jpeg",
+    "static/media/jawaher.png": "/static/media/jawaher.9f1c957b.png",
+    "static/media/malak.png": "/static/media/malak.430ab227.png",
+    "static/media/marsLogo.png": "/static/media/marsLogo.bf650068.png",
+    "static/media/mohamad.png": "/static/media/mohamad.27e7c5e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65c0c667.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.82940cc3.chunk.js",
+    "static/css/main.2d397298.chunk.css",
+    "static/js/main.6e90ca25.chunk.js"
+  ]
+}

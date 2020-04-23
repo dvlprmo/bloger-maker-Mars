@@ -1,0 +1,80 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.landing{
+  background-image: url('./bgimage.jpeg');
+  text-align: center;
+}
+.landing h1 {
+  padding-top: 90px;
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.landing h3{
+  padding-top: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.startPosting{
+  margin-top: 100px;
+}
+.big{
+  width: 150px;
+  font-weight: bolder;
+  font-size: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+.message{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 90px;
+}
+.something {
+  margin-left: 90px;
+}
+
+/* body{
+  background-color: rgb(146, 149, 151);
+} */
