@@ -26,7 +26,7 @@ export default class Favorite extends Component {
     }
     componentDidMount() {
         console.log(this.props.match.params.id)
-        axios.put(`http://localhost:5000/api/user/favbooks/${this.props.match.params}`, {_id:this.props.user._id})
+        axios.put(`/api/user/favbooks/${this.props.match.params}`, {_id:this.props.user._id})
             .then(response => {
                 console.log(response)
                 this.setState({

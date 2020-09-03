@@ -22,7 +22,7 @@ class FavCard extends Component {
         }
         onDelete = () => {
             console.log(this.props.post._id)
-            Axios.delete(`http://localhost:5000/api/user/delete/${this.props.post._id}`)
+            Axios.delete(`/api/user/delete/${this.props.post._id}`)
             .then(res => {
                 console.log(res)
             })

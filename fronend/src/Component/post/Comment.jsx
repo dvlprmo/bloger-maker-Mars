@@ -72,7 +72,7 @@ export default class Comment extends Component {
         <Container>
           <Row className="mt-5">
             <Col md={5} className="mr-5">
-              <Image style={{ height: 400, width: 450 }} src={`http://localhost:5000/${this.state.post.image}`} />
+              <Image style={{ height: 400, width: 450 }} src={`/${this.state.post.image}`} />
             </Col>
             <Col md={5}>
               {/* <h4>{this.state.post.title}</h4>

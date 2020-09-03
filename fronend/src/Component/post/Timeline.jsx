@@ -13,7 +13,7 @@ export default class Timeline extends Component {
         selectedPost: []
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/api/post/timeline')
+        axios.get('/api/post/timeline')
             .then(res => {
                 // console.log(res)
                 this.setState({
