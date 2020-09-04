@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-## Available Scripts
+# Blogger Website
 
-In the project directory, you can run:
+## Project Description
+With the power of the network, different ways to engage with stories, and the ability to follow your favorite technology topics, write posts, and share it. Mars will be home to thousands of communities, endless conversation, and authentic human connection. Whether you're into technologies news, developers, programmers, or a never-ending stream of the internet's developments, there's a technology community on Mars for you. You can always find fresh thinking and unique perspectives.
 
-### `yarn start`
+## Requirements
+- Build a full stack web application. 
+- Must be your own work.
+- Select a Project Idea of your own. 
+- Must at least have User Authentication and CRUD on a resource.
+- Build both a client application and a server application.
+- Client application must be built with React.
+- Server application must be built with Node.js.
+- Deploy on Heroku so application is live on the web.
+- Craft a README.md file that explains your app to the world.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wireframes
+Mars Blogger includes 6 pages: 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+landing, register, login, home, favorite, change or reset password.
+### Landing
+- Landing
+# ![](./blogger-website/public/images/landing.jpg)
 
-### `yarn test`
+### Register
+- Register
+# ![](./blogger-website/public/images/register.jpg)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Login
+- Login
+# ![](./blogger-website/public/images/login.jpg)
 
-### `yarn build`
+### Home
+- Landing
+# ![](./blogger-website/public/images/home.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Favorite Posts
+- Favorite List Posts
+# ![](./blogger-website/public/images/favorate.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Change or reset Password
+- Change or reset
+# ![](./blogger-website/public/images/change.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Difficulties in the Project
+- Connect Backend with Frontend
+- Bootstrap
 
-### `yarn eject`
+## Favorite part of the Project
+- React
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Upgrade in the Future
+-  Comments
+- Online chat
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## link to Tech Book Lounge
